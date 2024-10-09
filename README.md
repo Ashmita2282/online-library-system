@@ -13,4 +13,3 @@ EliteReads is an online platform for browsing and managing a collection of books
 - React Router
 - Tailwind CSS
 
-:
