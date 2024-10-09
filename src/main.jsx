@@ -10,6 +10,7 @@ import BrowseBooks from "./components/BrowseBooks";
 import BookDetails from "./components/BookDetails";
 import AddBook from "./components/AddBook";
 import NotFound from "./components/NotFound";
+import Footer from "./components/Footer";
 
 const appRouter = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const appRouter = createBrowserRouter([
       { path: "books/:category", element: <BrowseBooks /> }, // Browse Books by Category
       { path: "book/:id", element: <BookDetails /> }, // Book Details
       { path: "add-book", element: <AddBook /> }, // Add Book
+      { path: "/", element: <Footer /> }, // 404 Page
       { path: "*", element: <NotFound /> }, // 404 Page
     ],
   },
